@@ -1,9 +1,0 @@
-{
-  "version": "2.0-beta",
-  "modules": {
-    "core": "core/universal/core.universal.js",
-    "audio": "core/universal/audio.universal.js",
-    "event": "core/universal/event.universal.js",
-    "engine": "core/universal/engine.universal.js"
-  }
-}
