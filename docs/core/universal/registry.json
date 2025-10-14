@@ -1,4 +1,0 @@
-{
-  "modules": ["core", "audio", "event", "ui"],
-  "version": "2.0-beta"
-}
