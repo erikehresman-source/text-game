@@ -1,9 +1,0 @@
-{
-  "modules": [
-    "core",
-    "audio",
-    "event",
-    "engine",
-    "ui"
-  ]
-}
