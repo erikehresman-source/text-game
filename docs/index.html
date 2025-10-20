@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minimal Harness Test</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 24px; }
+    #status { padding: 12px 16px; border-radius: 8px; display: inline-block; }
+    .ok { background: #e6ffed; color: #056608; border: 1px solid #a6f3b6; }
+    .err { background: #ffecec; color: #7a0611; border: 1px solid #ffc2c2; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>Minimal Harness Test</h1>
+  <p>This test verifies if <code>registry.json</code> loads correctly via <code>bootstrap.universal.js</code>.</p>
+  <div id="status">Booting…</div>
+
+  <!-- load the bootstrap -->
+  <script src="core/universal/bootstrap.universal.js"></script>
+</body>
+</html>
